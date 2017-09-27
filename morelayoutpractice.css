@@ -1,0 +1,24 @@
+/* Handy way to visualize divs */
+
+
+/* div{
+  border: 2px solid black;
+} */
+
+#header, #content, #hero, #footer {
+  background-color: #9ec5f8;
+  text-align: left;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+#header>div, #content>div, #hero>div, #footer>div {
+  background-color: #cfe2fb;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#adXS {
+  background-color: #6fa8dc;
+  margin-bottom: 5px;
+}
